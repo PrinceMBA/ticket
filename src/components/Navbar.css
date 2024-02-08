@@ -1,0 +1,8 @@
+/* Navbar.css */
+
+.nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}

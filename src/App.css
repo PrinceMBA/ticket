@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,54 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+table {
+  border-collapse: collapse;
+  width: 63%;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
+
+/* Style the table header */
+thead {
+  background-color: #f2f2f2;
+}
+
+/* Style the table header cells (th) */
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 10px;
+}
+
+/* Style the table body rows (tr) */
+tr {
+  border: 1px solid #dddddd;
+}
+
+/* Style the table body cells (td) */
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Add some spacing between rows */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #ddd;
+}
+/* 
+.nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+} */
